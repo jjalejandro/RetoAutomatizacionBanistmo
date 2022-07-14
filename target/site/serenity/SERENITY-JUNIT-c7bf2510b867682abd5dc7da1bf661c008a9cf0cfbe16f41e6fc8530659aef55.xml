@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Verificar carrito de compras" skipped="0" tests="1" time="96.55" timestamp="2022-07-13 07:41:04"><testcase name="Adicion de productos al carrito de compras"><error message="chrome not reachable&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SSBOG5CG026BS14', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\JHON~1.ALO\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4740b92b03f83803eee7ededa2cdf776&#10;*** Element info: {Using=xpath, value=(//*[text()='View Basket'])[2]}" type="java.lang.AssertionError">chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG026BS14', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\JHON~1.ALO\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4740b92b03f83803eee7ededa2cdf776
+*** Element info: {Using=xpath, value=(//*[text()='View Basket'])[2]}</error><system-err>chrome not reachable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSBOG5CG026BS14', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\JHON~1.ALO\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:57835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4740b92b03f83803eee7ededa2cdf776
+*** Element info: {Using=xpath, value=(//*[text()='View Basket'])[2]}&#13;
+com.sophossolutions.tasks.AddProductsToShoppingCard.performAs(AddProductsToShoppingCard.java:26)&#13;
+com.sophossolutions.stepsdefinitions.PracticeAutotestingStepsDefinitions.quiereComprarLosProductosConLosNombresDeY(PracticeAutotestingStepsDefinitions.java:35)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
